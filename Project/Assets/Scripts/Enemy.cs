@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform player;
     [SerializeField] private float detectRange;
-    [SerializeField] private List<Transform> patrolPoints;
+    [SerializeField] private List<Transform> patrolPoints;  
 
     private NavMeshAgent _navMeshAgent;
     private int _currentPatrolPoint = 0;
